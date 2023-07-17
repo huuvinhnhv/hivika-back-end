@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYsImq4gOykW7Ji71lRRj/gAAAAACAAAAAAAQZgAAAAEAACAAAACtr5LKMvEeXMNratOiCxgI09romZEfcLdDgksSjbAuuwAAAAAOgAAAAAIAACAAAABeWIMYcwhVk8zuXx4Nm5lVDlOQZmTryYHW9tPESAnZZYAAAADcKEaGThkBNd8FU35WK80w+zG/hUR4UZXBeFyql8Lp+8R0uZCJRBm61Ff0XymEJDeg2JWslgojBkLHtHH6/7bHpHu1NXCnyVeqx5/pqwFWyr1tMHjPgds72nRnrJmWgQ3bO7A9xMdipPv+S+jD1d1h+2JKho0C9Wv589/O5y0Xr0AAAADyLzhncT9RPIabvwcadZschpONGlRbbr2hRu6yMAHhjSI2iQQJrjHerbBuRxhbWWb6Ac9vI2HIjGuRbnhaBYjp</EncryptedPassword>
+    <History>True|2023-05-10T10:16:48.9698966Z;False|2023-05-10T17:05:16.8890479+07:00;True|2023-05-09T17:16:10.5052518+07:00;True|2023-05-08T00:55:35.7406306+07:00;True|2023-05-05T13:21:30.7217325+07:00;True|2023-05-04T20:14:50.8830740+07:00;True|2023-05-04T09:33:00.5947660+07:00;True|2023-04-27T18:00:46.1076492+07:00;True|2023-04-27T07:12:00.3189774+07:00;True|2023-04-26T22:23:55.0013234+07:00;True|2023-04-26T18:43:04.5938014+07:00;True|2023-04-26T14:22:59.4700645+07:00;True|2023-04-25T23:07:03.2511399+07:00;False|2023-04-25T22:52:32.5277253+07:00;True|2023-04-25T22:11:47.0286502+07:00;True|2023-04-25T22:01:46.8057200+07:00;False|2023-04-25T21:59:19.4930444+07:00;False|2023-04-25T21:58:11.3278679+07:00;True|2023-04-25T21:45:43.7216646+07:00;True|2023-04-25T21:30:58.8511257+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:web-api-event-gamedbserver.database.windows.net,1433%3bInitial Catalog=Web_Api_Event_Game_db%3bUser Id=hienpham2023%40web-api-event-gamedbserver%3bPassword=Hien815387%40</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Web_Api_Event_Game.Data.DataContext">
+      <Value>Data Source=tcp:web-api-event-gamedbserver.database.windows.net,1433%3bInitial Catalog=Web_Api_Event_Game_db%3bUser Id=hienpham2023%40web-api-event-gamedbserver%3bPassword=Hien815387%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

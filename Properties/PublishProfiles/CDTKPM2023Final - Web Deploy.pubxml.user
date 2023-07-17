@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYsImq4gOykW7Ji71lRRj/gAAAAACAAAAAAAQZgAAAAEAACAAAADnj9D8KKVa8piXaXwPKVjAMhZKQmGolxY1LZLqt0eKXgAAAAAOgAAAAAIAACAAAAB/65+i1YAjpwU9WaGwf0B+SoH99F1L5UOTFuFhygHRj4AAAAA110L9laiiEPZJSHvf6qMhDM9SjBrAJbQ1/C/ofhwBP3hlJPR2JdNeuyqlCiwwHcvVmssEujwWpfGJtT30rfwPIszo4O27cVOAcueWSlB+XNqi1gPAkZjPXieyskeU7VHSFNrzj9CEw1dw4d6lynx9Fxpyd5mi66DSkI9qxVnHlkAAAACSc3/6IuwwyOpYdh9DDj0FTeaeincj27y0Ldajm/7v+fHhkDsTLDQwMnmleiUy04pasQpzX5PtS1It44S9R3l5</EncryptedPassword>
+    <History>False|2023-04-25T14:16:52.2720654Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=LAPTOP-34F9G5OT\SQLEXPRESS%3b Database=customer%3b Trusted_Connection=true%3b TrustServerCertificate=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Web_Api_Event_Game.Data.DataContext">
+      <Value>Server=LAPTOP-34F9G5OT\SQLEXPRESS%3b Database=customer%3b Trusted_Connection=true%3b TrustServerCertificate=true%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

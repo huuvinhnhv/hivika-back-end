@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZNNIV2vgtC6bkj9mYucmCm0CymDb0kQdJULQAg5QYGk=",
+  "Source": "Web_Api_Event_Game",
+  "BasePath": "_content/Web_Api_Event_Game",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

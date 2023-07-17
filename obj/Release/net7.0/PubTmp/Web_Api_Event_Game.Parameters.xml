@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="cdtkpmnc2023final" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Project\\Web_Api_Event_Game\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Web_Api_Event_Game.Data.DataContext" description="" value="Data Source=tcp:webapieventgamedbserver.database.windows.net,1433;Initial Catalog=Web_Api_Event_Game_db;User Id=huuvinhnhv@webapieventgamedbserver;Password=Anhchang!1231993" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Project\\Web_Api_Event_Game\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\Web_Api_Event_Game\.Data\.DataContext\.sql$" />
+  </parameter>
+</parameters>

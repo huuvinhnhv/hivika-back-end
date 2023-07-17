@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYsImq4gOykW7Ji71lRRj/gAAAAACAAAAAAAQZgAAAAEAACAAAACpWoMuHO9DShouWYz/cO1WeoQN0vdwcWCbfsW7J8UqcgAAAAAOgAAAAAIAACAAAADEshFbZ66IpBpP2dNuLBUhxJKUqWLkLUVqEcy5MD1OfIAAAAAdWV8OZ0LY+ggrray+vcsFpTGpjprfbPvI1UVPK2urF7phwcUNbKSoW+DxvVjCfZIc8w7eiG8PYyekfMxayzuwNux3T2rw4+UEV5NqgaiQQbySx1sOGODpRNh4ED8Twdcbq6yI7JWWjqrBfSj3S5XAdl3CTmDI0PvaFlrWkkGSjkAAAACtrFYp8jhybcP1F5go3GwvFskX+U9zu4jbLk9/APCPbKQ/Nx4hRoJfh7UswfPXxpRUfiysw9nYgmkAip6QVCnd</EncryptedPassword>
+    <History>False|2023-05-04T13:12:51.8452629Z;False|2023-04-25T20:44:28.4280014+07:00;True|2023-04-15T11:15:27.7878040+07:00;True|2023-04-15T08:32:05.7286698+07:00;True|2023-04-15T08:25:09.7732083+07:00;True|2023-04-15T08:04:53.2151013+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:web-api-event-gamedbserver.database.windows.net,1433%3bInitial Catalog=Web_Api_Event_Game_db%3bUser Id=hienpham%40web-api-event-gamedbserver%3bPassword=Hien815387%40</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Web_Api_Event_Game.Data.DataContext">
+      <Value>Data Source=tcp:web-api-event-gamedbserver.database.windows.net,1433%3bInitial Catalog=Web_Api_Event_Game_db%3bUser Id=hienpham%40web-api-event-gamedbserver%3bPassword=Hien815387%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
